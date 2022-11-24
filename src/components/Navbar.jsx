@@ -26,7 +26,7 @@ export default function Navbar() {
 
                 <div className="down-nav">
                     <div className="down-lt-nav">
-                        <a href="#">Home</a>
+                        <a className="home-link" href="#">Home</a>
                         <div className="dropdown">
                             <button className="dropbtn">Ship</button>
                             <div className="dropdown-content">
