@@ -44,7 +44,7 @@
 }
 
 .top-navbar .top-rt-nav a {
-  padding: .5em;
+  padding: 1em;
   color: #000 !important;
   text-decoration: none;
   font-size: .89em;
@@ -98,6 +98,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 1.5em;
     
 }
 
@@ -112,13 +113,11 @@
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    text-align: left;
-    padding: 1.5em;
 }
 
 .ship--one,
 .ship--two,
-.ship--three h4 {
+.ship--three, h4 {
     text-align: left;
 }
 
@@ -126,9 +125,11 @@
 .ship--two,
 .ship--three, a {
     color: #f4f4f4 !important;
-    text-align: left;
     font-size: 15px;
-    padding-left: -5em;
+    padding: 0;
+    line-height: .5em;
+    margin-left: -1em;
+    padding: 1em;
 }
 
 
@@ -157,5 +158,78 @@
     color: #000 !important;
     font-size: 1em;
     font-family: 'Poppins', sans-serif;
+}
+
+
+
+/**** Header ****/
+
+#header {
+    background-image: url("../images/gh_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #727272;
+    z-index: 2; */
+    height: 45rem;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-first-sec {
+    display: flex;
+    padding: 15em .5em;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-first-sec .welcome-msg {
+    color: #fff;
+    width: 22em;
+    
+}
+
+.hero-first-sec 
+.welcome-msg p {
+    font-size: 20px;
+    letter-spacing: .02em;
+}
+
+.hero-first-sec 
+.welcome-msg p h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.form-shipment {
+    background-color: rgb(88, 87, 82, .7);
+    color: #fff;
+    padding: 1.5em;
+    border-radius: 5px;
+    
+}
+
+.form-shipment
+.form-shipment-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+.form-shipment
+.form-shipment-form h2 {
+    padding: .7em 0;
+    text-align: left;
+}
+
+.form-shipment
+.form-shipment-form 
+.input-form input {
+    width: 18em;
+    height: 3em;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;
 }
 
