@@ -173,6 +173,7 @@
     height: 45rem;
     width: 100%;
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 5em;
 }
 
 .hero-first-sec {
@@ -241,6 +242,7 @@
 
 .hero-cards {
     color: black;
+   
 }
 
 .hero-cards
@@ -248,6 +250,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .hero-cards
@@ -255,7 +258,7 @@
 .card--one {
     background:url(../images//vertical-line-50.png) center right -1.37em no-repeat;
     background-color: #fff;
-    padding: .5em 2em;
+    padding: .5em 2em !important;
     margin: 0; 
 }
 
@@ -264,6 +267,12 @@
 .card--two {
     padding: .5em .5em;
     margin: 0 .03em;
+}
+
+.hero-cards
+.long-card
+.card--two:last-child {
+    background-image: none;
 }
 
 .hero-cards
@@ -326,3 +335,46 @@
 .card--desc {
     color: #000;
 }
+
+.card--form {
+    background-color: #fecb2e !important;
+}
+
+.long-card 
+.card--form form {
+    padding: 1.4em 0;
+}
+
+
+.major-card {
+    background-color: #fff;
+    width: 25em;
+    height: 4em;
+
+}
+
+.track-search {
+    border: 0;
+}
+
+.long-card 
+.card--form label {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    
+}
+
+.long-card 
+.card--form label
+button {
+    padding: 1.8em 3.5em;
+    background-color: green;
+    color: #fff;
+    outline: 0;
+    border: 0;
+    margin-top: -1.8em;
+
+
+}
+

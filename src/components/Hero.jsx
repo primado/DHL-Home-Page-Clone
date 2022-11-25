@@ -63,6 +63,17 @@ export default function Hero() {
                                 </div>
                             </a>
                         </div>
+                        <div className="card--one card--form">
+                            <form action="" className="card-form">
+                                <div className="major-card">
+                                    <input className="track-search" type="search" placeholder="Track Your Shipments" />
+                                    <label htmlFor="track">
+                                        <button type="submit">Track</button>
+                                    </label>
+                                </div>
+                                
+                            </form>
+                        </div>
                     </div>
                 </div>
             </header>
