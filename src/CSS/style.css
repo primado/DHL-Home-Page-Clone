@@ -186,6 +186,7 @@
 .hero-first-sec .welcome-msg {
     color: #fff;
     width: 22em;
+    line-height: 2.3em;
     
 }
 
@@ -229,7 +230,99 @@
     width: 18em;
     height: 3em;
     text-align: center;
-    border-radius: 5px;
-    outline: none;
+    border-top: 0;
+    border: 0;
+    border-right: #000 !important;
+    outline: 0;
+    margin-right: .1em;
 }
 
+
+
+.hero-cards {
+    color: black;
+}
+
+.hero-cards
+.long-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-cards
+.long-card
+.card--one {
+    background:url(../images//vertical-line-50.png) center right -1.37em no-repeat;
+    background-color: #fff;
+    padding: .5em 2em;
+    margin: 0; 
+}
+
+.hero-cards
+.long-card
+.card--two {
+    padding: .5em .5em;
+    margin: 0 .03em;
+}
+
+.hero-cards
+.long-card
+.card--one:hover {
+    box-shadow: -1px 10px 24px -9px rgba(0,0,0,0.75);
+    z-index: 2 !important;
+
+}
+
+
+
+.hero-cards
+.long-card
+.card--one:last-child {
+    padding: .5em 2em;
+    background-image: none;
+}
+
+.hero-cards
+.long-card
+.card--one a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+.hero-cards
+.long-card
+.card--one a 
+.card--desc, .card-icon {
+    padding: .5em 1em;
+    color: #6b7280;
+}
+
+.hero-cards
+.long-card
+.card--one a
+.card--desc {
+    color: #007acc;
+}
+
+.hero-cards
+.long-card
+.card--one a
+.card-icon {
+    padding: .3em;
+    font-size: 2em;
+}
+
+.hero-cards
+.long-card
+.card--one a:hover, .card-icon:hover {
+    color: #007acc;
+}
+
+.card--desc {
+    color: #000;
+}

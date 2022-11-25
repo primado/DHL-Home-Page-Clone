@@ -25,10 +25,44 @@ export default function Hero() {
                                     <input type="text" className="rate--quote" placeholder="Get a Rate and and Time Quote"/>
                                     <input type="text" className="pickup"placeholder="Schedule a Pickup"/>
                                 </div>
-
                             </form>
                         </div>
 
+                    </div>
+                </div>
+
+                <div className="hero-cards">
+                    <div className="long-card">
+                        <div className="card--one">
+                            <a href="#">
+                                <div className="card-icon">
+                                    <i class="fa-solid fa-tag"></i>
+                                </div>
+                                <div className="card--desc">
+                                    Get Quote
+                                </div>
+                            </a>
+                        </div>
+                        <div className="card--one card--two">
+                            <a href="#">
+                                <div className="card-icon">
+                                    <i class="fa-solid fa-globe"></i>
+                                </div>
+                                <div className="card--desc">
+                                    Delivery Services
+                                </div>
+                            </a>
+                        </div>
+                        <div className="card--one">
+                            <a href="#">
+                                <div className="card-icon">
+                                    <i class="fa-solid fa-location-pin"></i>
+                                </div>
+                                <div className="card--desc">
+                                    Find Location
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </header>
