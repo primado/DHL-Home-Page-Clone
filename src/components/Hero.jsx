@@ -63,7 +63,7 @@ export default function Hero() {
                                 </div>
                             </a>
                         </div>
-                        <div className="card--one card--form">
+                        <div className=" card--form">
                             <form action="" className="card-form">
                                 <div className="major-card">
                                     <input className="track-search" type="search" placeholder="Track Your Shipments" />
