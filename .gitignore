@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# src
+/src/components/Carousel-old.jsx

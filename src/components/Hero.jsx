@@ -71,7 +71,6 @@ export default function Hero() {
                                         <button type="submit">Track</button>
                                     </label>
                                 </div>
-                                
                             </form>
                         </div>
                     </div>

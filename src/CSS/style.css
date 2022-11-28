@@ -242,6 +242,7 @@
 
 .hero-cards {
     color: black;
+    
    
 }
 
@@ -260,6 +261,7 @@
     background-color: #fff;
     padding: .5em 2em !important;
     margin: 0; 
+    box-shadow: -2px 9px 41px -18px rgba(0,0,0,0.75);
 }
 
 .hero-cards
@@ -344,6 +346,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: -2px 9px 41px -18px rgba(0,0,0,0.75);
 }
 
 .long-card 
@@ -398,5 +401,77 @@ button:hover {
 
 /***** Carousel Section ****/
 
+.main-carousel {
+    background-color: #007acc;
+    padding: 3em;
+    font-family: 'Poppins', sans-serif;
+}
 
+/* SwiperSlide {
+    overflow: hidden;
+} */
+
+.swiper--content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.side--content {
+    background-color: rgba(255, 252, 243, .9);
+    display: flex;
+    flex-direction: column;
+    padding: 1.8em 1em;
+    position: absolute;
+    top: .1em;
+    z-index: 2;
+    left: 49.5em;
+    height: 21.8em;
+
+}
+
+.side--content h1 {
+    font-size: 1.5em;
+    padding: .6em 0;
+}
+
+.side--content .swiper--desc {
+    width: 22em;
+    line-height: 1.5em;
+    padding: 2em 0;
+}
+
+.swiper-link {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-link .on-swiper-link {
+    color: #000 !important;
+    background-color: #fecb2e;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 1em 3.5em;
+    border-radius: .2em;
+
+}
+
+.swiper-link .on-swiper-link:hover {
+    background-color: #ebb208;
+    transition: background-color 20ms ease-in-out;
+}
+
+.swiper--long-img {
+    position: relative;
+}
+
+/* .swiper--long-img img {
+    width: ;
+} */
 
