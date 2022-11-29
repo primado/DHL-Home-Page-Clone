@@ -33,7 +33,7 @@ export default function Carousel() {
         
         <SwiperSlide>
             <div className="swiper--content">
-                <div className="side--content">
+                <div className="side--content side--content-one">
                     <h1>The Journey of a Package</h1>
                     <div className="swiper--desc">
                         Watch how your package travels with DHL and 
@@ -52,15 +52,15 @@ export default function Carousel() {
         </SwiperSlide>
         <SwiperSlide>
             <div className="swiper--content">
-                <div className="side--content">
-                    <h1>The Journey of a Package</h1>
+                <div className="side--content side--content-two">
+                    <h1>DHL Express Delivers</h1>
                     <div className="swiper--desc">
-                        Watch how your package travels with DHL and 
-                        learn how we can help you with each step of the journey.
+                    With international reach and local teams, 
+                    we offer time definite door-to-door delivery around the world.
                     </div>
                     <div className="swiper-link">
                         <a className="on-swiper-link" href="#">
-                            Follow the Journey
+                            Get Shipping Advice
                         </a>
                     </div>
                 </div> 
@@ -71,15 +71,15 @@ export default function Carousel() {
         </SwiperSlide>
         <SwiperSlide>
             <div className="swiper--content">
-                <div className="side--content">
-                    <h1>The Journey of a Package</h1>
+                <div className="side--content side--content-three">
+                    <h1>New to International Shipping?</h1>
                     <div className="swiper--desc">
-                        Watch how your package travels with DHL and 
-                        learn how we can help you with each step of the journey.
+                        We’re specialists in international shipping! We’ve got 
+                        tips and advice to help you ship with confidence.
                     </div>
                     <div className="swiper-link">
                         <a className="on-swiper-link" href="#">
-                            Follow the Journey
+                            Get Shipping Advice
                         </a>
                     </div>
                 </div> 
@@ -90,15 +90,15 @@ export default function Carousel() {
         </SwiperSlide>
         <SwiperSlide>
             <div className="swiper--content">
-                <div className="side--content">
-                    <h1>The Journey of a Package</h1>
+                <div className="side--content side--content-four">
+                    <h1>Prepare Your Package for the Journey</h1>
                     <div className="swiper--desc">
                         Watch how your package travels with DHL and 
                         learn how we can help you with each step of the journey.
                     </div>
                     <div className="swiper-link">
                         <a className="on-swiper-link" href="#">
-                            Follow the Journey
+                            Packing with Care
                         </a>
                     </div>
                 </div> 
@@ -109,15 +109,15 @@ export default function Carousel() {
         </SwiperSlide>
         <SwiperSlide>
             <div className="swiper--content">
-                <div className="side--content">
-                    <h1>The Journey of a Package</h1>
+                <div className="side--content side--content-five">
+                    <h1>We Know Customs</h1>
                     <div className="swiper--desc">
-                        Watch how your package travels with DHL and 
-                        learn how we can help you with each step of the journey.
+                        Shipping to over 200 countries and territories – we’ve 
+                        established a wealth of customs expertise.
                     </div>
-                    <div className="swiper-link">
-                        <a className="on-swiper-link" href="#">
-                            Follow the Journey
+                    <div className="swiper-link swiper-link-five">
+                        <a className="on-swiper-link on-swiper-link-five" href="#">
+                            Customs Clearance Advice
                         </a>
                     </div>
                 </div> 

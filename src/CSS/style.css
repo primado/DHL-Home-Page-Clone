@@ -433,6 +433,31 @@ button:hover {
 
 }
 
+.side--content-three {
+    left: 48.22em;
+    height: 22.35em;
+}
+
+.side--content-four {
+    padding: 1.8em 1em;
+    width: 24em;
+    left: 49.55em;
+}
+
+.side--content-four h1 {
+    font-size: 1.4em !important;
+    padding: .5em;
+}
+
+.side--content-five {
+    width: 24em;
+}
+
+.swiper-link-five
+.on-swiper-link-five {
+    padding: 1.2em 2em !important;
+}
+
 .side--content h1 {
     font-size: 1.5em;
     padding: .6em 0;
@@ -457,7 +482,7 @@ button:hover {
     text-decoration: none;
     font-weight: bold;
     font-size: 1em;
-    padding: 1em 3.5em;
+    padding: 1em 4.2em;
     border-radius: .2em;
 
 }
@@ -470,8 +495,4 @@ button:hover {
 .swiper--long-img {
     position: relative;
 }
-
-/* .swiper--long-img img {
-    width: ;
-} */
 
