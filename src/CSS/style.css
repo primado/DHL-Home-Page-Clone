@@ -508,6 +508,7 @@ button:hover {
     background-position: top;
     background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
+    width: 80em;
 }
 
 #main-solution .solution {
