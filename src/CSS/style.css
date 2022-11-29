@@ -7,6 +7,7 @@
 #nav {
     background-color: #fecb2f;
     font-family: 'Poppins', sans-serif;
+    /* position: static; */
 }
 
 .top-navbar {
@@ -402,7 +403,7 @@ button:hover {
 /***** Carousel Section ****/
 
 .main-carousel {
-    background-color: #007acc;
+    /* background-color: #007acc; */
     padding: 3em;
     font-family: 'Poppins', sans-serif;
 }
@@ -496,3 +497,48 @@ button:hover {
     position: relative;
 }
 
+
+
+/****** Many benifts ******/
+
+#main-solution {
+    padding: 2em;
+    background-image: url(../images/faded-waves.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main-solution .solution {
+    padding: 1em 0;
+}
+
+.sol--flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 4em;
+    
+}
+
+.sol--flex .sol--content {
+    margin-left: 2em;
+    width: 30em;
+    
+}
+
+.sol--link {
+    padding: .5em;
+    background-color: none !important;
+}
+
+.sol--link a {
+    color: #007acc !important;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+
+}
