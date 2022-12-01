@@ -26,3 +26,4 @@ dist-ssr
 
 # src
 /src/components/Carousel-old.jsx
+/src/components/newCard.jsx

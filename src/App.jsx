@@ -4,6 +4,7 @@ import Hero from "./components/Hero"
 import Carousel from "./components/Carousel"
 import OneSolution from './components/OneSolution'
 import CardCarol from "./components/CardCarol"
+import ExpressDelivery from './components/ExpressDelivery'
 
 import "./CSS/style.css"
 
@@ -28,6 +29,8 @@ function App() {
       <section id='main-cardCarol'>
         <CardCarol />
       </section>
+
+      <ExpressDelivery />
       
       
     </div>

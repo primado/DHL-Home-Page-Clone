@@ -621,3 +621,39 @@ button:hover {
     border-radius: .5em .5em 0 0;
     
 }
+
+
+
+/***** Express Delivery *****/
+
+#ex-delivery {
+    border: 1px solid #000;
+    margin-top: 5em;
+    margin-bottom: 2em;
+    margin-left: 7em;
+    margin-right: 7em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ex-content {
+    padding: 1.5em;
+}
+
+.ex-content h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.ex-content .pText {
+    font-size: .8em;
+}
+
+
+.ex-desc {
+    padding: .5em;
+    font-size: 1em;
+}
+
+
+
+
