@@ -1,82 +1,52 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import dhl_journey from "../images/dhl-journey.png"
-import flexible from "../images/flexible.jpg"
-import not_home from "../images/not-home.jpg"
-import ship_like_pro from "../images/ship-like-pro.jpg"
-import battary from "../images/batteries.jpg"
-import save_shipping from "../images/save-shipping.jpg"
-
-import "../CSS/style.css"
+import data from "../data"
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 
+import "../CSS/style.css"
 
 // import required modules
-import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
+import { Pagination, Navigation } from "swiper";
 
-export default function App() {
+export default function CardCarol() {
   return (
     <>
-      <section id="main-cardCarol">
-        <Swiper
-          cssMode={true}
-          navigation={{clickable: true}}
-          pagination={{clickable: true}}
-          mousewheel={true}
-          keyboard={true}
-          modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-          className="mySwiper"
-        >
-          <SwiperSlide className="mySlider">
+      <Swiper
+        slidesPerView={3}
+        spaceBetween={-45}
+        Navigation={{
+          clickable:true,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination, Navigation]}
+        className="mySwiper"
+      >
+        { data.map(  item =>   
+          <SwiperSlide key={item.id} className="mySlider"> 
             <div className="carol">
-                <img className="carol-img" src={ship_like_pro} alt="ship like a pro" />
-                <div className="carol-content">
-                    <h1>Ship Like a Pro</h1>
-                    <div className="carol-desc">
-                        Get access to powerful and time-saving
-                        customizable features found only in MyDHL+.
-                    </div>
-                    <div className="carol--link">
-                        <a href="#">Create a Login and Ship</a>
-                    </div>
-                </div>
-            </div>
-
-            <div className="carol">
-                <img className="carol-img" src={save_shipping} alt="ship like a pro" />
-                <div className="carol-content">
-                    <h1>Save on Frequent Shipping</h1>
-                    <div className="carol-desc">
-                     Get preferred rates, billing options and other
-                     great benefits of having a DHL Express account!
-                    </div>
-                    <div className="carol--link">
-                        <a href="#">Create a Login and Ship</a>
-                    </div>
-                </div>
-            </div>
-            <div className="carol">
-                <img className="carol-img" src={dhl_journey} alt="ship like a pro" />
-                <div className="carol-content">
-                    <h1>Save on Frequent Shipping</h1>
-                    <div className="carol-desc">
-                     Get preferred rates, billing options and other
-                     great benefits of having a DHL Express account!
-                    </div>
-                    <div className="carol--link">
-                        <a href="#">Create a Login and Ship</a>
-                    </div>
-                </div>
-            </div>
+                  <div className="carol-content">
+                      <img className="carol-img" src={`/images/${item.cardImage}`} alt="ship like a pro" />
+                      <div className="carol--content">
+                        <h1>{item.title}</h1>
+                        <div className="carol-desc">{ item.description }</div>
+                        <div className="carol--link">
+                            <a href="#">{item.link_text}</a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
           </SwiperSlide>
-          <SwiperSlide>Slide 2</SwiperSlide>
-        </Swiper>
-      </section>
+        )}
+        
+        
+      </Swiper>
     </>
   );
 }

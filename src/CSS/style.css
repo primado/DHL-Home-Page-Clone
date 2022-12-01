@@ -552,37 +552,42 @@ button:hover {
     margin-top: 3em;
     background-color: #fff;
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
     padding: 2em;
-    overflow: none;
+    /* background-color: #ebb208; */
+    position: relative;
+    top: 5em;
     
 }
 
+/* .mySwiper{
+    display: flex;
+
+} */
 
 .mySlider {
-    margin-bottom: 2em;
+    margin-bottom: 3.5em;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: relative !important;
     font-family: 'Poppins', sans-serif;
-
-    
 }
 
 .carol {
-    width: 20em;
-    height: 10em;
-    margin-right: 1em
+    width: 23em;
+    /* height: 10em; */
+    margin-right: .5em;
+ 
+  
 }
 
 .carol-content {
     background-color: #fff;
-    width: 20em;
-    padding: .5em;
-    box-shadow: 12px 21px 17px -15px rgba(0,0,0,0.75);
-    
+    width: 23em;
+    border-radius: .5em .5em .2em .2em;
+    box-shadow: 1px 11px 40px -28px rgba(0,0,0,0.75);
+}
+.carol--content {
+    padding: .7em;
 }
 
 .carol-content h1 {
@@ -611,8 +616,8 @@ button:hover {
     cursor: pointer;
 }
 
-.carol .carol-img {
+.carol-img {
     width: 100%;
-    margin-bottom: -.3em;
+    border-radius: .5em .5em 0 0;
     
 }

@@ -5,7 +5,19 @@ import Carousel from "./components/Carousel"
 import OneSolution from './components/OneSolution'
 import CardCarol from "./components/CardCarol"
 
+import "./CSS/style.css"
+
 function App() {
+
+  // const cards = data.map(item => {
+    
+  //   return (
+  //     <CardCarol
+  //       key={item.id}
+  //       {...item}
+  //     />
+  //   )
+  // })
 
   return (
     <div>
@@ -13,7 +25,9 @@ function App() {
       <Hero />
       <Carousel />
       <OneSolution />
-      <CardCarol />      
+      <section id='main-cardCarol'>
+        <CardCarol />
+      </section>
       
       
     </div>
