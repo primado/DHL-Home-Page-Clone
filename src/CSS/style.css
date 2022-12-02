@@ -262,7 +262,8 @@
     background-color: #fff;
     padding: .5em 2em !important;
     margin: 0; 
-    box-shadow: -2px 9px 41px -18px rgba(0,0,0,0.75);
+    /* box-shadow: -2px 9px 41px -18px rgba(0,0,0,0.75); */
+    outline: 1px solid #333;
 }
 
 .hero-cards
@@ -347,7 +348,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: -2px 9px 41px -18px rgba(0,0,0,0.75);
+    /* box-shadow: -2px 9px 41px -18px rgba(0,0,0,0.75); */
 }
 
 .long-card 
@@ -657,3 +658,88 @@ button:hover {
 
 
 
+/****** Footer *****/
+
+footer {
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    z-index: 2 !important;
+    padding: 2em 5em;
+    
+}
+
+.foot-container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    
+}
+
+.lt-content {
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+
+.lt-content .col--x {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3em; 
+    padding: 1.5em 0;   
+}
+
+.lt-content .col--x:last-child {
+    border-right: 1px solid #000;
+}
+
+.col--x, .col--x1, a {
+    color: #444444 !important;
+    text-decoration: none;
+}
+
+
+.rt-content {
+    margin-left: 2em;
+    padding: 1.5em 0;  
+}
+
+.rt-content h1 {
+    font-size: 1.3em;
+}
+
+.col--x1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    color: #444444 !important;;
+}
+
+.socials .lt-sol {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    /* padding-right: 1em; */
+}
+
+.socials .lt-sol h3 {
+    padding-right: 2em;
+}
+
+.socials .lt-sol a {
+    padding-right: 1.5em;
+}
+
+.rt-sol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

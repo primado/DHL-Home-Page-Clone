@@ -5,8 +5,9 @@ import Carousel from "./components/Carousel"
 import OneSolution from './components/OneSolution'
 import CardCarol from "./components/CardCarol"
 import ExpressDelivery from './components/ExpressDelivery'
-
+import Footer from './components/footer'
 import "./CSS/style.css"
+
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
       </section>
 
       <ExpressDelivery />
+      <Footer />
       
       
     </div>
