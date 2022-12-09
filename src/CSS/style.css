@@ -40,7 +40,9 @@
 
 .top-underline {
     background-color: #fff;
-    width: 100%;
+    border: none;
+    height: 2px;
+
     
 }
 
@@ -104,7 +106,7 @@
 }
 
 .ship-dropdown h4 {
-    color: #8a8a8a;
+    color: #8a8a8a !important;
 }
 
 .ship--one,
@@ -124,7 +126,7 @@
 
 .ship--one,
 .ship--two,
-.ship--three, a {
+.ship--three, .nav-link {
     color: #f4f4f4 !important;
     font-size: 15px;
     padding: 0;
@@ -133,6 +135,12 @@
     padding: 1em;
 }
 
+.ship--one,
+.ship--two,
+.ship--three, 
+.nav-link:hover {
+    color: #fecb2e !important;
+}
 
 .down-nav .down-lt-nav {
     color: #000;

@@ -33,20 +33,20 @@ export default function Navbar() {
                                 <div className="ship-dropdown">
                                     <div className="ship--one">
                                         <h4>Get Started Now</h4>
-                                        <a href="#">Order Supplies</a>
+                                        <a className="nav-link" href="#">Order Supplies</a>
                                     </div>
                                     <div className="ship--two">
                                         <h4>Explore</h4>
-                                        <a href="#">Delivery Services</a>
-                                        <a href="#">Optional Services</a>
-                                        <a href="#">Customs Services</a>
-                                        <a href="#">Surchages</a>
-                                        <a href="#">Solutions</a>
+                                        <a className="nav-link" href="#">Delivery Services</a>
+                                        <a className="nav-link" href="#">Optional Services</a>
+                                        <a className="nav-link" href="#">Customs Services</a>
+                                        <a className="nav-link" href="#">Surchages</a>
+                                        <a className="nav-link" href="#">Solutions</a>
                                     </div>
                                     <div className="ship--three">
                                         <h4>MYDHL+LEARN</h4>
-                                        <a href="#">About MyDHL+</a>
-                                        <a href="#">What's New With MyDHL+</a>
+                                        <a className="nav-link" href="#">About MyDHL+</a>
+                                        <a className="nav-link" href="#">What's New With MyDHL+</a>
                                     </div>
                                 </div>
                             </div>
